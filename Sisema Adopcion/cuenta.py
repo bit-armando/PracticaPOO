@@ -2,7 +2,7 @@ class Cuenta:
     __name = str
     __document = str
     __phoneNumber = str
-
+    __id = int
     def __init__(self, name, document):
         """Constructor\n
             name = str, document = str
@@ -30,3 +30,9 @@ class Cuenta:
     
     def getDocument(self):
         return self.__document
+
+    def setId(self,id):
+        self.__id = id
+
+    def getId(self):
+        return self.__id

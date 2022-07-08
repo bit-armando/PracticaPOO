@@ -21,3 +21,9 @@ class Card(Payment):
     
     def getDate(self):
         return self.__date
+
+    def setId(self,id):
+        self.__id = id
+
+    def getId(self):
+        return self.id
